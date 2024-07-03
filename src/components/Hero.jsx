@@ -6,9 +6,9 @@ import ConnectBTN from "./ConnectBTN";
 const Hero = ({ scrollContainer }) => {
   return (
     <section className="parallax">
-      <div className='parallax__content absolute top-[10%] sm:top-[16%] lg:top-[24%] w-full mx-auto lg:pl-[38vh] lg:pr-[30vh] xl:pl-96 xl:pr-72 2xl:px-40 3xl:px-60 flex flex-col lg:flex-row items-start z-10' style={{ zIndex: 500 }}>
+      <div className='parallax__content absolute top-[10%] sm:top-[16%] lg:top-[24%] w-full mx-auto lg:pl-[10%] lg:pr-[10%] xl:pl-[15%] xl:pr-[15%] 2xl:px-[10%] 3xl:px-[10%] flex flex-col lg:flex-row items-start z-10' style={{ zIndex: 500 }}>
         <div className="flex-1 lg:mb-0">
-          <h1 className='font-medium text-white text-[40px] xs:text-[50px] sm:text-[68px] md:text-[80px] lg:text-[100px] 2xl:text-[180px] leading-[110px] 2xl:leading-[160px]'>
+          <h1 className='font-medium text-white text-[40px] xs:text-[50px] sm:text-[68px] md:text-[80px] lg:text-[100px] 2xl:text-[140px] leading-[110px] 2xl:leading-[160px]'>
             Pranav Mhargude 
           </h1>
           <br/>
@@ -21,8 +21,8 @@ const Hero = ({ scrollContainer }) => {
         </div>
       </div>
 
-      {/* <img className="parallax__stars" src="./parallax/1Stars.svg" alt="" />
-      <img className="parallax__planets" src="./parallax/2Planets.svg" alt="" /> */}
+      {/* <img className="parallax__stars" src="./parallax/1Stars.svg" alt="" /> */}
+      {/* <img className="parallax__planets" src="./parallax/2Planets.svg" alt="" /> */}
       <img className="parallax__mountain1" src="./parallax/3Mountain.svg" alt="" />
       <img className="parallax__mountain2" src="./parallax/4Mountain.svg" alt="" />
       {/* <img className="parallax__crater" src="./parallax/5Crater.svg" alt="" /> */}
@@ -34,3 +34,4 @@ const Hero = ({ scrollContainer }) => {
 };
 
 export default Hero;
+
