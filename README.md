@@ -19,4 +19,4 @@ I built myself a 3D developer portfolio website to replace my minimal portfolio 
 - [Position Animation by Teshank](https://github.com/teshank2137/portfolio)
 
 ## Live 
-[-](https://p18an1v.github.io/parnav-mhargude/)
+https://p18an1v.github.io/parnav-mhargude/
